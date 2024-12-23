@@ -1,0 +1,116 @@
+header {
+    background-color: #333333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-content .socials li {
+    display: inline;
+}
+
+.footer-content .socials li a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* Pour que les icônes soient blanches */
+    transition: transform 0.3s ease;
+}
+
+.footer-content .socials li a img:hover {
+    transform: scale(1.2); /* Effet au survol */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+header img.logo {
+    width: 80px; /* Ajuste la taille selon ton besoin */
+    height: auto;
+    border-radius: 50%; /* Si tu veux un logo en cercle */
+}
+#about {
+    padding: 2em;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+#about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+.contact-redirect {
+    text-align: center;
+    margin: 2em 0;
+}
+.contact-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.contact-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
